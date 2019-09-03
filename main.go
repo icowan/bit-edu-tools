@@ -26,8 +26,8 @@ const (
 
 var (
 	fs        = flag.NewFlagSet("bit-edu-tools", flag.ExitOnError)
-	username  = fs.String("username", "3420190175", "学号")
-	password  = fs.String("password", "smile1025", "密码")
+	username  = fs.String("username", "123123", "学号")
+	password  = fs.String("password", "12312", "密码")
 	cacheFile = "./cache.json"
 )
 
@@ -119,6 +119,3 @@ func login() {
 	fmt.Println(result.Raw())
 
 }
-
-
-
